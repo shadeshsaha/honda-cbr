@@ -60,17 +60,20 @@ body {
     border-radius: 15px;
 }
 
+/* ===== */
 
-/* header nav
-================= */
+
+/* header nav starts */
 
 .nav-link:hover {
     color: var(--color-orange) !important;
 }
 
+/* header nav ends */
 
-/* Featured section css
-========================== */
+/* ==== */
+
+/* Featured section starts */
 
 .arrow {
     width: 70px;
@@ -83,13 +86,20 @@ body {
     filter: grayscale(100%);
 }
 
+/* Featured section ends */
 
-/* Progress
-================ */
+/* ==== */
+
+/* Progress starts */
 
 .progress {
     height: 40px;
 }
+
+/* Progress ends */
+
+/* ==== */
+
 
 
 /* Blogs & reviews */
