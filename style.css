@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --color-orange: #E76F51;
+    --bg-dark-green: #264653;
+}
+
+.bg-dark-green {
+    background: var(--bg-dark-green);
+}
+
+.text-orange {
+    color: var(--color-orange);
+}
+
+.bg-orange {
+    background: var(--color-orange);
+}
+
+.btn-orange {
+    background: var(--color-orange);
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-orange-lg {
+    background: var(--color-orange);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-orange-outline {
+    color: var(--color-orange);
+    padding: 10px 24px;
+    border: 1px solid var(--color-orange);
+    border-radius: 5px;
+}
+
+.btn-orange-outline:hover {
+    background: var(--color-orange);
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: tomato;
+}
+
+.rounded-4 {
+    border-radius: 15px;
+}
+
+
+/* header nav
+================= */
+
+.nav-link:hover {
+    color: var(--color-orange) !important;
+}
+
+
+/* Featured section css
+========================== */
+
+.arrow {
+    width: 70px;
+    height: 2px;
+    background: var(--color-orange);
+    margin: 0 auto;
+}
+
+.gray-img {
+    filter: grayscale(100%);
+}
+
+
+/* Progress
+================ */
+
+.progress {
+    height: 40px;
+}
+
+
+/* Blogs & reviews */
+
+.cr-btn {
+    background: black !important;
+}
